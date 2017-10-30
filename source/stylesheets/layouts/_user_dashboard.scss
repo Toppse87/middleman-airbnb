@@ -1,0 +1,7 @@
+
+@media(min-width: 768px) {
+.grid {
+  display: grid;
+  grid-template-columns: 400px 1fr 1fr 1fr;
+  grid-template-rows: 50% 50%
+}
