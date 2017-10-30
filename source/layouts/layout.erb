@@ -1,4 +1,7 @@
 <!doctype html>
+
+
+
 <html>
   <head>
     <meta charset="utf-8">
@@ -12,6 +15,8 @@
     <%= favicon_tag 'images/favicon.png' %>
   </head>
   <body>
+    <%= partial "layouts/navbar" %>
     <%= yield %>
+    <%= partial "layouts/footer" %>
   </body>
 </html>
